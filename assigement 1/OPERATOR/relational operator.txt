@@ -1,0 +1,17 @@
+nt x = 5;
+int y = 10;
+
+bool result;
+
+// Assign result of relational expression to bool type variable
+result = x > y; // result is false
+
+cout << "x > y: " << result << endl; 
+
+result = x + 10 > y / 5; // result is true
+
+// equivalent, parentheses are not needed but adds readability here
+result = (x + 10) > (y / 5); 
+
+// bool variable is output as 0 or 1 instead of true or false
+cout << "(x + 10) > (y / 5): " << result << endl; 
